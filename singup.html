@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1>Register Account</h1></div>
+    <div>
+        <form action="../vote/singup_process.php" method="post">
+            <label>         Username</label><br>
+            <input type="text" name="name" placeholder="enter name"><br>
+            <label>         Phone Number</label><br>
+            <input type="text" name="number" placeholder="enter number"><br>
+            <label>         Password</label><br>
+            <input type="password" name="password" placeholder="enter password"><br>
+            <label>  Confirm Password</label><br>
+            <input type="password" name="con_password" placeholder="re-enter password"><br>
+            <label>Select Option</label><br>
+            <select name="option">
+                <option value=""></option>
+                <option value="vote">Vote</option>
+                <option value="group">Group</option>
+            </select><br>
+            <button>Singup</button><br>
+            <label>already have an account?</label>
+        <a href="login.html">Login here</a>
+        </form>
+        </div>
+</body>
+</html>

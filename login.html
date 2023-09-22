@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <title>Voting Page</title>
+</head>
+<body>
+    <div><h1>Welcome To The Voting Page</h1></div>
+    <div>
+        <form action="login_process.php" method="post">
+            <label>         Username</label><br>
+            <input type="text" name="name" placeholder="enter name"><br>
+            <label>         Phone Number</label><br>
+            <input type="text" name="number" placeholder="enter number"><br>
+            <label>         Password</label><br>
+            <input type="password" name="password" placeholder="enter password"><br>
+            <label>Select Option</label><br>
+            <select name="option">
+                <option value=""></option>
+                <option value="vote">Vote</option>
+                <option value="group">Group</option>
+            </select><br>
+            <button>Login</button>
+        </form>
+        <label>don't have an account?</label>
+        <a href="singup.html">Register here</a>
+    </div>
+    
+
+</body>
+</html>
